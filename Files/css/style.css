@@ -1,0 +1,299 @@
+body, html{
+    height: 100%;
+}
+,cover{
+	background-size: cover;
+}
+.bg{
+    /* The image used */
+    background-image: url("cover.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*navbar*/
+.navbar{
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	width: 100%;
+	font-color: white;
+}
+/*navbar ends*/
+
+/*search option*/
+.form-light .font-small {
+font-size: 0.8rem; }
+
+.form-light [type="radio"] + label,
+.form-light [type="checkbox"] + label {
+font-size: 0.8rem; }
+
+.form-light [type="checkbox"] + label:before {
+top: 2px;
+width: 15px;
+height: 15px; }
+
+.form-light input[type="checkbox"] + label:before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 17px;
+height: 17px;
+z-index: 0;
+border-radius: 1px;
+margin-top: 2px;
+-webkit-transition: 0.2s;
+transition: 0.2s; }
+
+.form-light input[type="checkbox"]:checked + label:before {
+top: -4px;
+left: -3px;
+width: 12px;
+height: 22px;
+border-style: solid;
+border-width: 2px;
+border-color: transparent #EB3573 #EB3573 transparent;
+-webkit-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);
+-webkit-backface-visibility: hidden;
+-webkit-transform-origin: 100% 100%;
+-ms-transform-origin: 100% 100%;
+transform-origin: 100% 100%; }
+
+.form-light .footer {
+border-bottom-left-radius: .3rem;
+border-bottom-right-radius: .3rem; }
+.mt-4{
+	margin-top: 40%;
+	padding-top:18%;
+	text-align: center;
+}
+/*search option ends*/
+.img1{
+	width: 500px;
+	height: 250px;
+	border-radius: 10px 10px 10px 10px;
+}
+.custom-checkbox{
+	padding-right: 12%;
+	color: white;
+}
+.heading{
+	text-align: center;
+}
+.services{
+	background-color: #e1e1e1;
+	background-size: cover;
+}
+.page-footer{
+	margin-top: 30px;
+	background-image: url("8.jpg");
+	height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.mdb-select{
+	background: transparent;
+	border-radius: 10px 10px 10px 10px;
+}
+.b1{
+	border-radius: 15px 15px 15px 15px;
+}
+.btn:hover{
+	background-color: red;
+}
+.img2{
+	border-radius: 10px 10px 10px 10px;
+}
+.custom-checkbox{
+	background: transparent;
+}
+.btn-sm{
+	background-color: #db5e25;
+	border-radius: 25px 25px 25px 25px;
+}
+.form-control{
+	background: transparent;
+	width: 500px;
+	border-radius: 25px 25px 25px 25px;
+}
+.b2{
+	background-color: #db5e25;
+	border-radius: 25px 25px 25px 25px;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.iframe{
+	margin: 20px;
+	padding: 30px;
+
+}
+/* Sign up page satrts*/
+.form-dark .font-small {
+font-size: 0.8rem; }
+
+.form-dark [type="radio"] + label,
+.form-dark [type="checkbox"] + label {
+font-size: 0.8rem; }
+
+.form-dark [type="checkbox"] + label:before {
+top: 2px;
+width: 15px;
+height: 15px; }
+
+.form-dark .md-form label {
+color: #fff; }
+
+.form-dark input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #00C851;
+-webkit-box-shadow: 0 1px 0 0 #00C851;
+box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=text]:focus:not([readonly]) + label {
+color: #fff; }
+
+.form-dark input[type=password]:focus:not([readonly]) {
+border-bottom: 1px solid #00C851;
+-webkit-box-shadow: 0 1px 0 0 #00C851;
+box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=password]:focus:not([readonly]) + label {
+color: #fff; }
+
+.form-dark input[type="checkbox"] + label:before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 17px;
+height: 17px;
+z-index: 0;
+border: 1.5px solid #fff;
+border-radius: 1px;
+margin-top: 2px;
+-webkit-transition: 0.2s;
+transition: 0.2s; }
+
+.form-dark input[type="checkbox"]:checked + label:before {
+top: -4px;
+left: -3px;
+width: 12px;
+height: 22px;
+border-style: solid;
+border-width: 2px;
+border-color: transparent #00c851 #00c851 transparent;
+-webkit-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);
+-webkit-backface-visibility: hidden;
+-webkit-transform-origin: 100% 100%;
+-ms-transform-origin: 100% 100%;
+transform-origin: 100% 100%; }
+/*sign up page end*/
+
+/*Login page starts*/
+.form-simple .font-small {
+font-size: 0.8rem; }
+
+.form-simple .header {
+border-top-left-radius: .3rem;
+border-top-right-radius: .3rem; }
+
+.form-simple input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #ff3547;
+-webkit-box-shadow: 0 1px 0 0 #ff3547;
+box-shadow: 0 1px 0 0 #ff3547; }
+
+.form-simple input[type=text]:focus:not([readonly]) + label {
+color: #4f4f4f; }
+
+.form-simple input[type=password]:focus:not([readonly]) {
+border-bottom: 1px solid #ff3547;
+-webkit-box-shadow: 0 1px 0 0 #ff3547;
+box-shadow: 0 1px 0 0 #ff3547; }
+
+.form-simple input[type=password]:focus:not([readonly]) + label {
+color: #4f4f4f; }
+/*login page ends*/
+
+/*Signup.php Form/
+/* Wrap */
+/* Global Styles */
+  
+*{
+    padding: 0; /* Reset all padding to 0 */
+    margin: 0; /* Reset all margin to 0 */
+}
+  
+body{
+    background: #F9F9F9; /* Set HTML background color */
+    font: 14px "Lucida Grande";  /* Set global font size & family */
+    color: #464646; /* Set global text color */
+}
+  
+p{
+    margin: 10px 0px 10px 0px; /* Add some padding to the top and bottom of the <p> tags */
+}
+  
+/* Header */
+  
+#header{
+    height: 45px; /* Set header height */
+    background: #464646; /* Set header background color */
+}
+  
+#header h3{
+    color: #FFFFF3; /* Set header heading(top left title ) color */
+    padding: 10px; /* Set padding, to center it within the header */
+    font-weight: normal; /* Set font weight to normal, default it was set to bold */
+}
+  
+/* Wrap */
+  
+#wrap{
+    background: #FFFFFF; /* Set content background to white */
+    width: 615px; /* Set the width of our content area */
+    margin: 0 auto; /* Center our content in our browser */
+    margin-top: 50px; /* Margin top to make some space between the header and the content */
+    padding: 10px; /* Padding to make some more space for our text */
+    border: 1px solid #DFDFDF; /* Small border for the finishing touch */
+    text-align: center; /* Center our content text */
+}
+  
+#wrap h3{
+    font: italic 22px Georgia; /* Set font for our heading 2 that will be displayed in our wrap */
+}
+  
+/* Form & Input field styles */
+  
+form{
+    margin-top: 10px; /* Make some more distance away from the description text */
+}
+  
+form .submit_button{
+    background: #F9F9F9; /* Set button background */
+    border: 1px solid #DFDFDF; /* Small border around our submit button */
+    padding: 8px; /* Add some more space around our button text */
+}
+  
+input{
+    font: normal 16px Georgia; /* Set font for our input fields */
+    border: 1px solid #DFDFDF; /* Small border around our input field */
+    padding: 8px; /* Add some more space around our text */
+}
+/*signup.php end/
