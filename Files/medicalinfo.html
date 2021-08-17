@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CMS</title>
+    <link rel="icon" type="text/css" href="img/logo.png"></link>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+
+        <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"><img src="img/cms.png" style="width:70px;height:25px;"></a>
+        <ul class="navbar-nav ml-auto mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registration.htm">Registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signin.html">Sign In</a>
+            </li>
+            <form class="form-inline my-1">
+              <div class="md-form form-sm my-0">
+                 <input class="form-control form-control-sm mr-sm-2 mb-0" type="text" placeholder="Search" aria-label="Search">
+              </div>
+              <button class="btn btn-outline-white btn-sm my-0" type="submit">Search</button>
+            </form>
+        </ul>
+    </div>
+</nav>
+<section class="form-simple">
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!--Form with header-->
+<div class="card" style="background-image: url('img/login.jpg'); background-size: cover;">
+	<div class="container">
+		<div class="row col-md-6 col-md-offset-6">
+		   <div class="panel panel-primary">
+			  <div class="panel-heading text-center">
+				<center><h1 class="pt-10 bg-warning" style="background-color: red; background-size: cover;">Registration Form</h1></center>
+				<br>
+				<h2 style="background-color: blue; color: white;"><center>Medical Information</center></h2>
+				<br>
+				<h3>Please Enter Your Medical Information Below to Register on CMS.</h3>		
+					
+			  </div>
+			  <div class="panel-body">
+				<form action="medicalinfo.php" method="post">
+			        <div class="form-group">
+						<label for="firstName">Patient Contact No</label>
+						<input type="text" class="form-control" id="firstName" name="PDivision">
+					</div>
+					
+					<div class="form-group">
+						<label for="email">Blood Group</label>
+						<input type="text" class="form-control" id="email" name="PDistrict">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Hospital Name</label>
+						<input type="text" class="form-control" id="lastName" name="Pcitycorporation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Hospital Address</label>
+						<input type="text" class="form-control" id="lastName" name="Ppolicestation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Hospital Visit Date</label>
+						<input type="text" class="form-control" id="lastName" name="Pvillage">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Doctor Name</label>
+						<input type="text" class="form-control" id="lastName" name="Proadno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Doctor Designation</label>
+						<input type="text" class="form-control" id="lastName" name="fathercontactno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Doctor Fees</label>
+						<input type="text" class="form-control" id="lastName" name="Mothername">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Appointment Date</label>
+						<input type="text" class="form-control" id="lastName" name="Mothernid">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Appointment Time</label>
+						<input type="text" class="form-control" id="lastName" name="Motheroccupation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Diseases Type</label>
+						<input type="text" class="form-control" id="lastName" name="Mothercontactno">
+					</div>
+					<div class="form-group">
+						<label for="firstName">Diseases Name</label>
+						<input type="text" class="form-control" id="firstName" name="PDivision">
+					</div>
+					
+					<div class="form-group">
+						<label for="email">Diseases Test Report</label>
+						<input type="text" class="form-control" id="email" name="PDistrict">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Diseases Test's Diagnosis Center Name</label>
+						<input type="text" class="form-control" id="lastName" name="Pcitycorporation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Medicine Name</label>
+						<input type="text" class="form-control" id="lastName" name="Ppolicestation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Medicine Cost</label>
+						<input type="text" class="form-control" id="lastName" name="Pvillage">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Medicine Time Limit</label>
+						<input type="text" class="form-control" id="lastName" name="Proadno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Medicine Expire Date</label>
+						<input type="text" class="form-control" id="lastName" name="fathercontactno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Surgery Name</label>
+						<input type="text" class="form-control" id="lastName" name="Mothername">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Surgery Type</label>
+						<input type="text" class="form-control" id="lastName" name="Mothernid">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Surgery Date</label>
+						<input type="text" class="form-control" id="lastName" name="Motheroccupation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Surgery Cost</label>
+						<input type="text" class="form-control" id="lastName" name="Mothercontactno">
+					</div>
+					<div class="form-group">
+						<label for="firstName">Surgery Hospital Name</label>
+						<input type="text" class="form-control" id="firstName" name="PDivision">
+					</div>
+					
+					<a href="user.html" class="btn btn-dark b1" tabindex="-1" role="button" aria-disabled="true">Submit</a>
+
+				</form>
+                   
+				<br>
+
+			  </div>
+			  <div class="panel-footer text-right">
+				<small>&copy; Tamanna Kaiser</small>
+				
+			  </div>
+		   </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

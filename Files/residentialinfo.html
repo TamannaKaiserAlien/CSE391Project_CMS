@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CMS</title>
+    <link rel="icon" type="text/css" href="img/logo.png"></link>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+
+        <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"><img src="img/cms.png" style="width:70px;height:25px;"></a>
+        <ul class="navbar-nav ml-auto mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registration.htm">Registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signin.html">Sign In</a>
+            </li>
+            <form class="form-inline my-1">
+              <div class="md-form form-sm my-0">
+                 <input class="form-control form-control-sm mr-sm-2 mb-0" type="text" placeholder="Search" aria-label="Search">
+              </div>
+              <button class="btn btn-outline-white btn-sm my-0" type="submit">Search</button>
+            </form>
+        </ul>
+    </div>
+</nav>
+<section class="form-simple">
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!--Form with header-->
+<div class="card" style="background-image: url('img/login.jpg'); background-size: cover;">
+	<div class="container">
+		<div class="row col-md-6 col-md-offset-6">
+		   <div class="panel panel-primary">
+			  <div class="panel-heading text-center">
+				<center><h1 class="pt-10 bg-warning" style="background-color: red; background-size: cover;">Registration Form</h1></center>
+				<br>
+				<h2 style="background-color: blue; color: white;"><center>Residential Information</center></h2>
+				<br>
+				<h3>Please Enter Your Residential Information Below to Register on CMS.</h3>		
+					
+			  </div>
+			  <div class="panel-body">
+				<form action="residentialinfo.php" method="post">
+					<div class="form-group">
+						<label for="firstName">Division of Present Address</label>
+						<input type="text" class="form-control" id="firstName" name="PDivision">
+					</div>
+					
+					<div class="form-group">
+						<label for="email">District of Present Address</label>
+						<input type="text" class="form-control" id="email" name="PDistrict">
+					</div>
+					<div class="form-group">
+						<label for="lastName">City Corporation/ Union/ Municipality of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Pcitycorporation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Police Station of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Ppolicestation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Village / Area of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Pvillage">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Road No / Name of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="proadno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Post Office of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Ppostoffice">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Post Code of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Ppostcode">
+					</div>
+					<div class="form-group">
+						<label for="lastName">House Name of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Phousename">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Holding No of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Pholdingno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Appartment No of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Pappartmentno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Block No of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Pblockno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Ward No of Present Address</label>
+						<input type="text" class="form-control" id="lastName" name="Pwardno">
+					</div>
+					<div class="form-group">
+						<label for="firstName">Division of Permanent Address</label>
+						<input type="text" class="form-control" id="firstName" name="Perdivision">
+					</div>
+					
+					<div class="form-group">
+						<label for="email">District of Permanent Address</label>
+						<input type="text" class="form-control" id="email" name="Perdistrict">
+					</div>
+					<div class="form-group">
+						<label for="lastName">City Corporation/ Union/ Municipality of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Percitycorporation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Police Station of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perpolicestation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Village / Area of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Pervillage">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Road No / Name of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perroadno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Post Office of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perpostoffice">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Post Code of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perpostcode">
+					</div>
+					<div class="form-group">
+						<label for="lastName">House Name of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perhousename">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Holding No of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perholdingno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Appartment No of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perappartmentno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Block No of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perblockno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Ward No of Permanent Address</label>
+						<input type="text" class="form-control" id="lastName" name="Perwardno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Voter Area Name</label>
+						<input type="text" class="form-control" id="lastName" name="Voterareaname">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Voter Area No</label>
+						<input type="text" class="form-control" id="lastName" name="Voterareano">
+					</div>
+					<div class="form-group">
+						<label for="lastName">House Phone Number</label>
+						<input type="text" class="form-control" id="lastName" name="Housecontactno">
+					</div>
+					
+					<input type="submit" name="" class="btn btn-primary">
+
+				</form>
+                   
+				<br>
+
+			  </div>
+			  <div class="panel-footer text-right">
+				<small>&copy; Tamanna Kaiser</small>
+				
+			  </div>
+		   </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

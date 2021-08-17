@@ -1,0 +1,199 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CMS</title>
+    <link rel="icon" type="text/css" href="img/logo.png"></link>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+
+        <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"><img src="img/cms.png" style="width:70px;height:25px;"></a>
+        <ul class="navbar-nav ml-auto mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registration.htm">Registration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signin.html">Sign In</a>
+            </li>
+            <form class="form-inline my-1">
+              <div class="md-form form-sm my-0">
+                 <input class="form-control form-control-sm mr-sm-2 mb-0" type="text" placeholder="Search" aria-label="Search">
+              </div>
+              <button class="btn btn-outline-white btn-sm my-0" type="submit">Search</button>
+            </form>
+        </ul>
+    </div>
+</nav>
+<section class="form-simple">
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!--Form with header-->
+<div class="card" style="background-image: url('img/login.jpg'); background-size: cover;">
+	<div class="container">
+		<div class="row col-md-6 col-md-offset-6">
+		   <div class="panel panel-primary">
+			  <div class="panel-heading text-center">
+				<center><h1 class="pt-10 bg-warning" style="background-color: red; background-size: cover;">Registration Form</h1></center>
+				<br>
+				<h2 style="background-color: blue; color: white;"><center>Personal Information</center></h2>
+				<br>
+				<h3>Please Enter Your Personal Information Below to Register on CMS.</h3>		
+					
+			  </div>
+			  <div class="panel-body">
+				<form action="personalinfo.php" method="post">
+					<div class="form-group">
+						<label for="firstName">Name</label>
+						<input type="text" class="form-control" id="firstName" name="name">
+					</div>
+					
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="text" class="form-control" id="email" name="email">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Contact No</label>
+						<input type="text" class="form-control" id="lastName" name="contactno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Father's Name</label>
+						<input type="text" class="form-control" id="lastName" name="fathername">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Father's NID</label>
+						<input type="text" class="form-control" id="lastName" name="fathernid">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Father's Profession</label>
+						<input type="text" class="form-control" id="lastName" name="fatherocc">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Father's Contact No</label>
+						<input type="text" class="form-control" id="lastName" name="fathercontactno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Mother's Name</label>
+						<input type="text" class="form-control" id="lastName" name="Mothername">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Mather's NID</label>
+						<input type="text" class="form-control" id="lastName" name="Mothernid">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Mother's Profession</label>
+						<input type="text" class="form-control" id="lastName" name="Motheroccupation">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Mother's Contact No</label>
+						<input type="text" class="form-control" id="lastName" name="Mothercontactno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Local Guardian Name</label>
+						<input type="text" class="form-control" id="lastName" name="LGname">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Local Guardian Contact No</label>
+						<input type="text" class="form-control" id="lastName" name="LGcno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Local Guardian NID No</label>
+						<input type="text" class="form-control" id="lastName" name="LGnidno">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Blood Group</label>
+						<input type="text" class="form-control" id="lastName" name="Bloodgroup">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Date of Birth</label>
+						<input type="text" class="form-control" id="lastName" name="Dateofbirth">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Place of Birth</label>
+						<input type="text" class="form-control" id="lastName" name="Placeofbirth">
+					</div>	
+					<div class="form-group">
+						<label for="gender">Gender</label>
+						   <div>
+						      <label for="male" class="radio-inline"><input type="radio" id="male" name="Gender" value="male">Male</label>
+					       
+						      <label for="female" class="radio-inline"><input type="radio" id="female" name="Gender" value="female">FeMale</label>
+					       
+						      <label for="others" class="radio-inline"><input type="radio" id="others" name="Gender" value="others">Others</label>
+					       </div>
+					</div>
+					<div class="form-group">
+						<label for="Typesofcitizen">Types of Citizen</label>
+						   <div>
+						      <label for="male" class="radio-inline"><input type="radio" id="birth" name="Typesofcitizen" value="birth">By Birth</label>
+					       
+						      <label for="female" class="radio-inline"><input type="radio" id="marriage" name="Typesofcitizen" value="marriage">By Marriage</label>
+					       
+						      <label for="others" class="radio-inline"><input type="radio" id="naturalization" name="Typesofcitizen" value="naturalization">Naturalization</label>
+						      <label for="others" class="radio-inline"><input type="radio" id="other" name="Typesofcitizen" value="other">Other</label>
+					       </div>
+					</div>
+					<div class="form-group">
+						<label for="text">Age</label>
+						<input type="text" class="form-control" id="password" name="Age">
+					</div>
+					<div class="form-group">
+						<label for="password">Religion</label>
+						<input type="text" class="form-control" id="password" name="Religion">
+					</div>
+					<div class="form-group">
+						<label for="number">Profession</label>
+						<input type="text" class="form-control" id="number" name="Profession">
+					</div>
+					<div class="form-group">
+						<label for="number">Maritalstatus</label>
+						<input type="text" class="form-control" id="number" name="Maritalstatus">
+					</div>
+					<input type="submit" name="" class="btn btn-primary">
+				</form>
+                   
+				<br>
+
+			  </div>
+			  <div class="panel-footer text-right">
+				<small>&copy; Tamanna Kaiser</small>
+				
+			  </div>
+		   </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
